@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Clone Created by A.Qadir</title>
+    <!-- Css style File link -->
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Main / first Header  -->
+    <header>
+        <div id="main-header">
+            <!-- <div class="links">
+                <i class="fa-solid bars fa-bars"></i>
+                <h1>Trello</h1>
+                <p>Workspace</p>
+                <p>Recent</p>
+                <p>Starred</p>
+                <p>More</p>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <p><i class="fa-solid fa-bell"></i></p>
+                <p><i class="fa-regular fa-circle-question"></i></p>
+                <p class="id">AQ</p>
+            </div> -->
+            <h1 class="logo">Task Manager</h1>
+        </div>
+    </header>
+    <!-- --------- Main content ----------- -->
+<main>
+    <div class="main_content">
+        <!-- Side bar -->
+        <!-- <div id="side-bar"> -->
+            <!-- <div class="heading">Trello WorkSpace</div>
+            <input type="text" > -->
+        <!-- </div> -->
+        
+        <!-- content -->
+        <div class="content" id="card-container">
+           <!-- <div class="card">
+    <h2>Card Heading</h2>
+    <p class="para">This is para</p>
+    <form class="taskform">
+        <input  type="text"  class="taskinput">
+        <button type="submit"> add</button>
+    </form>
+</div> -->
+
+            <form class="new-card-form">
+                <h3>Add New Card</h3>
+                <input type="text" draggable="true" id="new-card-input" placeholder="Card Title">
+                <button id="add-card-btn">Add Card</button>
+            </form>  
+        </div>
+    </div>
+</main>
+</body>
+</html>
